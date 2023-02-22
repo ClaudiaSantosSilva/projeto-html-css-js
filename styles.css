@@ -8,10 +8,10 @@ html, body{
 
 #toda-a-pagina{
     width:100%;
-    height: 1500px;
+    height: 1800px;
     margin:0;
 }
-
+/* inicio do cabeçalho*/
 #topo{
     width:100%;
     height:200px;
@@ -40,18 +40,12 @@ html, body{
 }
 
 h1{
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-family:'Shantell Sans', cursive;
     width: 1000px;
     margin:0;
     color:green;
     }
-
-h3, h4{
-    font-family: Arial, Helvetica, sans-serif; 
-    line-height: 0,5;
-    margin:0;
-}    
 
 .titulo{
     height:100px;
@@ -69,7 +63,8 @@ h3, h4{
     height: 100px;
     font-size: 20px;
     }
-
+/* fim do cabeçalho*/
+/*inicio do menu */
  #menu{
     width:100%;
     height: 40px;
@@ -77,6 +72,7 @@ h3, h4{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
     }
 
 .menu>a{
@@ -86,19 +82,24 @@ h3, h4{
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
-    
-}   
+  
+}  
+/* fim do menu */
+/* inicio do conteudo 1 */ 
 
 #conteudo-1{
     width:100%;
     height: 356px;
     display: flex;
     flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 50px;
     }
 
 .video-conteudo-1{
 width:50%;
 height: 356px;
+padding-top: 20px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -107,6 +108,11 @@ justify-content: center;
 .video-conteudo-1>iframe{
     border: 10px black inset;
 }
+
+h2{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
 .texto-conteudo-1{
     width: 705px;
     height: 356px;  
@@ -122,13 +128,15 @@ justify-content: center;
     text-align: justify;
 }
 .texto-conteudo-1>h2{
-    margin-top: 30px;
+    padding-top: 20px;
 }
-
+/* fim do conteudo 1 */
+/* inicio do conteudo 2 */
 #conteudo-2{
     width:100%;
-    height: 300px;
-    margin-top: 30px;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +153,7 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 30px;
 
 }
 
@@ -154,28 +163,44 @@ justify-content: center;
     margin-right: 20px;
     
 }
+/* fim do conteudo 2 */
+/* inicio da enquete-formulário */
 
 #enquete{
+    padding-bottom: 20px;
+    width: 100%;
+    height: 400px;
     display: flex;
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif; 
-    max-width: 50%;
-    margin: 0;
     background-color: whitesmoke;
     }
+
 .form-titulo{
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 30x;
     color:red;
     text-align: center;
+    margin-top: 0;
 }
 .form-item{
     display: flex;
     flex-direction: column;
-    gap:8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .item-form-inline{
 display: flex;
 flex-direction: row;
 gap:5px;
+padding-top: 10px;
+padding-bottom: 15px;
 }
+
+.form-campo-textarea{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+/* fim da enquete-formulário */
+/* inicio do rodapé */
