@@ -8,7 +8,7 @@ html, body{
 
 #toda-a-pagina{
     width:100%;
-    height: 1800px;
+    height: auto;
     margin:0;
 }
 /* inicio do cabeçalho*/
@@ -84,6 +84,11 @@ h1{
     font-size: 18px;
   
 }  
+
+.menu>a:hover{
+    font-weight: bold;
+    background-color: white;
+}
 /* fim do menu */
 /* inicio do conteudo 1 */ 
 
@@ -111,6 +116,7 @@ justify-content: center;
 
 h2{
     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 32px;
 }
 
 .texto-conteudo-1{
@@ -159,22 +165,37 @@ h2{
 
 .tema-atual{
     width:33%;
-    background-color: orange;
     margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
+}
+
+.tema-atual>img{
+    width: 50%;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.tema-atual>span{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 2.0;
 }
 /* fim do conteudo 2 */
 /* inicio da enquete-formulário */
 
 #enquete{
-    padding-bottom: 20px;
+    margin-bottom: 20px;;
     width: 100%;
     height: 400px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif; 
     background-color: whitesmoke;
+    padding-top: 20px;
     }
 
 .form-titulo{
@@ -189,7 +210,35 @@ h2{
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 10px;
+      
 }
+
+.form-item-nome{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}  
+
+.form-item-enviar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}  
+
+.form-botao-enviar{
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
+.form-botao-enviar:hover{
+   font-weight: bold; 
+}
+
 .item-form-inline{
 display: flex;
 flex-direction: row;
@@ -204,3 +253,44 @@ padding-bottom: 15px;
 }
 /* fim da enquete-formulário */
 /* inicio do rodapé */
+#rodape{
+    width:100%;
+    height: auto;
+    margin-top: 30px;
+    bottom:0;
+    left: 0;
+    background-color:white;
+    padding-bottom:20px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.texto-rodape{
+    display: flex;
+    justify-content: center;
+}
+.texto-rodape>span>img{
+    width: 20px;
+    height: 20px;
+}
+
+.links-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-right: 70px;
+}
+
+.link-li-rodape>a>img{
+    width: 50px;
+    height: 50px;
+}
+
+.link-inst-rodapé>a>img{
+    width: 70px;
+    height: 70px;
+}
+/*fim do rodapé*/
