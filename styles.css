@@ -352,6 +352,39 @@ padding-bottom: 15px;
     color: green;
 }
 
-
-
 /* fim itens conteudo pagina de contato*/
+/* inicio de sobre a autora */
+#conteudo-autora{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto{
+    width: 400px;
+    height:600px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.foto>img{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+
+}
+
+.formacao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    display: flex;
+    align-items:center;
+    
+}
+
+.formacao>ol>li{
+    list-style: none;
+    line-height: 2.5;
+}
+/* fim de sobre a autora */
