@@ -31,7 +31,7 @@
 <div id="menu">
 <div class="menu">
     <a href="index.html">Início</a>
-    <a href="cv-autora.html">Sobre a Autora</a>
+    <a href="sobre-a-autora.html">Sobre a Autora</a>
     <a href="especialidades.html">Especialidades</a>
     <a href="receitas.html">Receitas Saudáveis</a>
     <a href="contato.html">Contato</a>
@@ -44,14 +44,14 @@
         <div class="foto-form-contato"><img src="imagens/foto-form-contato.jpeg"></div>
         <div class="texto-form-contato"><span>Nutricionista Claudia Santos Silva</span></div>
     </div>
-    <form class="form-contato">
+    <form class="form-contato" method="post" action="https://getform.io/f/8e17d5c2-2a2c-476f-8a0a-ac10e049770b">
         <h3 class="form-titulo">Entre em contato</h3> 
     <div class="form-item-nome">
-    Digite seu nome:<input type="text" placeholder="Seu nome" id="form-nome" name="form-nome" class="form-campo-texto">
+    Digite seu nome:<input type="text" placeholder="Seu nome" id="form-nome" name="nome" class="form-campo-texto" required minlength="12" maxlength="22">
     </div>
-    Qual o seu email?<input type="email" required>
+    Qual o seu email?<input type="email" id="form-email" name="email" class="form-email" required>
     <div class="form-item">
-    <textarea placeholder="Deixe a sua mensagem:" name="form-mensagem" class="form-campo-textarea" rows="8"></textarea>
+    <textarea placeholder="Deixe a sua mensagem:" name="mensagem" class="form-campo-textarea" rows="6" minlength="16" maxlength="300" required></textarea>
     </div>
     <div class="form-item-enviar">
     <input type="submit" value="Enviar" class="form-botao-enviar">

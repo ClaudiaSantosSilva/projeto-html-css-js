@@ -77,21 +77,21 @@
 <!--fim do conteudo 2-->
 <!--inicio do formulário-->
 <div id="formulario">
-<form class="form-enquete">
+<form class="form-enquete" method="post" action="https://getform.io/f/8e17d5c2-2a2c-476f-8a0a-ac10e049770b">
   <h3 class="form-titulo">Qual tema você gostaria de ver aqui?</h3> 
   <div class="form-item-nome">
-    Digite seu nome:<input type="text" placeholder="Seu nome" id="form-nome" name="form-nome" class="form-campo-texto">
+    Digite seu nome:<input type="text" placeholder="Seu nome" id="form-nome" name="nome" class="form-campo-texto" required minlength="12" maxlength="22">
   </div>
   <div class="item-form-inline">
   Selecione sua profissão:
-    Nutricionista<input type="radio" name="profissão" value="nutr">
-    Médico(a)<input type="radio" name="profissão" value="med">
-    Enfermeiro(a)<input type="radio" name="profissão" value="enf">
-    Outros<input type="radio" name="profissão" value="outros">
+    Nutricionista<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="nutr" required>
+    Médico(a)<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="med" required>
+    Enfermeiro(a)<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="enf" required>
+    Outros<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="outros" required>
   </div> 
-  Qual o seu email?<input type="email">
+  Qual o seu email?<input type="email" id="form-email" name="email" class="form-email">
   <div class="form-item">
-    <textarea placeholder="Deixe a sua sugestão:" name="form-sugestão" class="form-campo-textarea" rows="8"></textarea>
+    <textarea placeholder="Deixe a sua sugestão:" name="sugestao" class="form-campo-textarea" rows="6" minlength="16" maxlength="300" required></textarea>
   </div>
   <div class="form-item-enviar">
     <input type="submit" value="Enviar agora" class="form-botao-enviar">
