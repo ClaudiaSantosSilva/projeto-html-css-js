@@ -306,62 +306,67 @@ h1 {
 /* inicio itens conteudo pagina de contato*/
 #contato-container {
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 .ident-form-contato {
     width: 100%;
-    height: 400px;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 0;
     align-items: center;
-
+    
+    
 }
 
 .foto-form-contato {
     width: 30%;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
-    margin-left: 70px;
+    align-items: center;
+    padding: 10px;
 }
 
 .foto-form-contato>img {
-    height: 300px;
+    height: auto;
     width: 100%;
     border-radius: 20px;
 }
 
 .texto-form-contato {
-    width: 70%;
-    height: 250px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    align-items: center;
+    font-size: 22px;
     font-family: 'Shantell Sans', cursive;
-    padding-top: 100px;
-    margin-top: 30px;
+    padding: 10px;
+    
 }
 
 .form-contato {
-    padding-top: 50px;
+    /*padding-top: 20px;*/
     font-size: 18px;
-    height: 400px;
-    width: 800px;
+    height: auto;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 400px;
-
+    padding: 20px;
+    
 }
-
-.form-contato>h3 {
-    font-size: 34px;
+    
+.form-contato>.form-titulo{
+    font-size: 24px;
     font-family: 'Shantell Sans', cursive;
     font-weight: bold;
-    color: green;
+    color:green;
 }
-
+    
 /* fim itens conteudo pagina de contato*/
 /* inicio de sobre a autora */
 #conteudo-autora {
