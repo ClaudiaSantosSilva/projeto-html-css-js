@@ -132,6 +132,9 @@ h1 {
     padding-top: 10px;    
 }
 
+h2{
+    text-align: center;
+}
 .texto-conteudo-1>p {
     display: none;
 }
@@ -233,7 +236,6 @@ h1 {
     display: flex;
     flex-direction: column;
     
-
 }
 
 .form-botao-enviar {
@@ -248,12 +250,19 @@ h1 {
 
 .item-form-inline {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     gap: 5px;
     padding-top: 10px;
     padding-bottom: 15px;
+    margin-top: 10px;
 }
 
+.item-form-inline>input{
+    margin:0 12px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: 20px;
+}
 .form-campo-textarea {
     padding-top: 10px;
     padding-bottom: 8px;

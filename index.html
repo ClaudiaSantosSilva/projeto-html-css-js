@@ -80,16 +80,20 @@
 <form class="form-enquete" method="post" action="https://getform.io/f/8e17d5c2-2a2c-476f-8a0a-ac10e049770b">
   <h3 class="form-titulo">Qual tema você gostaria de ver aqui?</h3> 
   <div class="form-item-nome">
-    Digite seu nome:<input type="text" placeholder="Seu nome" id="form-nome" name="nome" class="form-campo-texto" required minlength="12" maxlength="22">
+    <label for="form-nome">Nome completo</label>
+    <input type="text" placeholder="Seu nome" id="form-nome" name="nome" class="form-campo-texto" required minlength="12" maxlength="22">
   </div>
   <div class="item-form-inline">
-  Selecione sua profissão:
-    Nutricionista<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="nutr" required>
-    Médico(a)<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="med" required>
-    Enfermeiro(a)<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="enf" required>
-    Outros<input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="outros" required>
+    <label for="form-inline-profissão">Selecione sua profissão</label>
+    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="nutr" required><label for="escolha-profissão">Nutricionista</label>
+    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="med" required><label for="escolha-profissão">Médico(a)</label>
+    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="enf" required><label for="escolha-profissão">Enfermeiro(a)</label>
+    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="outros" required><label for="escolha-profissao">Outros</label>
   </div> 
-  Qual o seu email?<input type="email" id="form-email" name="email" class="form-email">
+   <div class="form-item">
+    <label for="form-email">Email</label>
+    <input type="email" placeholder="Seu email" id="form-email" name="email" class="form-email">
+   </div>
   <div class="form-item">
     <textarea placeholder="Deixe a sua sugestão:" name="sugestao" class="form-campo-textarea" rows="6" minlength="16" maxlength="300" required></textarea>
   </div>
