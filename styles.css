@@ -747,7 +747,7 @@ h1 {
     }
 
     .foto-form-contato>img {
-        height: 300px;
+        height: 200px;
         width: 100%;
         border-radius: 20px;
     }
@@ -791,32 +791,38 @@ h1 {
     }
 
     .foto {
-        width: 400px;
-        height: 600px;
+        width: 70%;
+        height: 500px;
         display: flex;
         align-items: flex-start;
-        margin-left: 150px;
-        margin-top: 50px;
+        justify-content: center;
+        
     }
 
     .foto>img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
 
     }
 
     .formacao {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 26px;
+        font-size: 20px;
         display: flex;
         align-items: center;
+        width:100%;
 
+    }
+
+    .formacao>ol{
+        padding-left: 0;
     }
 
     .formacao>ol>li {
         list-style: none;
         line-height: 2.5;
+        padding-left: 0;
     }
 
     /* fim de sobre a autora */
