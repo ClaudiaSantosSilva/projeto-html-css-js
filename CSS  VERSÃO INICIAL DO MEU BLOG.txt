@@ -1,0 +1,406 @@
+VERSÃO INICIAL (DESKTOP) MEU BLOG
+
+body{
+        display: flex;
+        justify-content:center;
+    }
+    #toda-a-pagina {
+        max-width: 80%;
+        
+    }
+    
+    /* inicio do cabeçalho*/
+    #topo {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .logo {
+        top: 0;
+        display:block;
+    }
+
+    .logo img {
+        width: 160px;
+        height: 200px;
+    }
+
+    .cabecalho {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 1200px;
+
+    }
+
+    h1 {
+        font-size: 55px;
+        font-family: 'Shantell Sans', cursive;
+        width: 1000px;
+        margin: 0;
+        color: green;
+    }
+
+    .titulo {
+        height: 100px;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .autora {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1000px;
+        height: 100px;
+        font-size: 20px;
+    }
+
+    /* fim do cabeçalho*/
+    /*inicio do menu */
+    #menu {
+        width: 100%;
+        height: 40px;
+        background-color: #b3ffe3;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .menu>a {
+        border: 2px solid green;
+        border-radius: 8px;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+
+    }
+
+    .menu>a:hover {
+        font-weight: bold;
+        background-color: white;
+    }
+
+    /* fim do menu */
+    /* inicio do conteudo 1 */
+
+    #conteudo-1 {
+        width: 100%;
+        height: 356px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .video-conteudo-1 {
+        width: 50%;
+        height: 356px;
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-conteudo-1>iframe {
+        border: 10px black inset;
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+    }
+
+    .texto-conteudo-1 {
+        width: 705px;
+        height: 356px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 40px;
+    }
+
+    .texto-conteudo-1>p {
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .texto-conteudo-1>h2 {
+        padding-top: 20px;
+    }
+
+    /* fim do conteudo 1 */
+    /* inicio do conteudo 2 */
+    #conteudo-2 {
+        width: 100%;
+        height: 350px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-conteudo-2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+
+    }
+
+    .temas-atuais {
+        height: 250px;
+        min-width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 30px;
+
+    }
+
+    .tema-atual {
+        width: 33%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tema-atual>img {
+        width: 50%;
+        height: 130px;
+        border-radius: 10px;
+    }
+
+    .tema-atual>span {
+        font-size: 18px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height: 2.0;
+    }
+
+    /* fim do conteudo 2 */
+    /* inicio da enquete-formulário */
+
+    #formulario {
+        margin-bottom: 20px;
+        ;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: whitesmoke;
+        padding-top: 20px;
+    }
+
+    .form-titulo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30x;
+        color: red;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .form-item-nome {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .form-item-enviar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: 20%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .form-botao-enviar {
+        border: 2px black solid;
+        border-radius: 8px;
+    }
+
+    .form-botao-enviar:hover {
+        font-weight: bold;
+    }
+
+    .item-form-inline {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .form-campo-textarea {
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+
+    /* fim da enquete-formulário */
+    /* inicio do rodapé */
+    #rodape {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .texto-rodape {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto-rodape>span>img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .links-rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        padding-right: 70px;
+    }
+
+    .link-li-rodape>a>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .link-inst-rodapé>a>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /*fim do rodapé*/
+    /* inicio itens conteudo pagina de contato*/
+    #contato-container {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .ident-form-contato {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .foto-form-contato {
+        width: 30%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-left: 70px;
+    }
+
+    .foto-form-contato>img {
+        height: 300px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .texto-form-contato {
+        width: 70%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Shantell Sans', cursive;
+        padding-top: 100px;
+        margin-top: 30px;
+    }
+
+    .form-contato {
+        padding-top: 50px;
+        font-size: 18px;
+        height: 400px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 400px;
+
+    }
+
+    .form-contato>h3 {
+        font-size: 34px;
+        font-family: 'Shantell Sans', cursive;
+        font-weight: bold;
+        color: green;
+    }
+
+    /* fim itens conteudo pagina de contato*/
+    /* inicio de sobre a autora */
+    #conteudo-autora {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .foto {
+        width: 400px;
+        height: 600px;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+
+    .foto>img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+
+    }
+
+    .formacao {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .formacao>ol>li {
+        list-style: none;
+        line-height: 2.5;
+    }
+
+    /* fim de sobre a autora */
+
+}

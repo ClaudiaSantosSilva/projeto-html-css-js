@@ -33,7 +33,9 @@ body {
 }
 
 .cabecalho {
-    padding-left: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*padding-left: 50px;*/
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -85,8 +87,7 @@ h1 {
     padding-right: 30px;
     font-size: 17px;
     
-    
-    
+     
 }
 
 .menu>a:hover {
@@ -349,7 +350,6 @@ h1 {
 }
 
 .form-contato {
-    /*padding-top: 20px;*/
     font-size: 18px;
     height: auto;
     width: 90%;
@@ -371,55 +371,66 @@ h1 {
 /* inicio de sobre a autora */
 #conteudo-autora {
     width: 100%;
+    height:auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 .foto {
-    width: 400px;
-    height: 600px;
+    width: 100%;
+    height: auto;
     display: flex;
-    align-items: flex-start;
-    margin-left: 150px;
-    margin-top: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .foto>img {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 
 }
 
 .formacao {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 16px;
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
 .formacao>ol>li {
     list-style: none;
     line-height: 2.5;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* fim de sobre a autora */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
     body{
         display: flex;
         justify-content:center;
     }
     #toda-a-pagina {
-        max-width: 80%;
+        /*max-width: 80%;*/
+        width:100%;
+        height:auto;
         
     }
     
     /* inicio do cabeçalho*/
     #topo {
         width: 100%;
-        height: 200px;
+        height: auto;
         background-color: white;
         display: flex;
         flex-direction: row;
@@ -433,29 +444,27 @@ h1 {
 
     .logo img {
         width: 160px;
-        height: 200px;
+        height: 180px;
     }
 
     .cabecalho {
-        padding-left: 50px;
         display: flex;
         flex-direction: column;
         height: 200px;
-        width: 1200px;
+        width: 80%;
 
     }
 
     h1 {
-        font-size: 55px;
+        font-size: 45px;
         font-family: 'Shantell Sans', cursive;
-        width: 1000px;
-        margin: 0;
+        width: 100%;
+        margin-top: 10px;
         color: green;
     }
 
     .titulo {
         height: 100px;
-        top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -464,8 +473,7 @@ h1 {
     .autora {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-left: 1000px;
+        align-items: flex-end;
         height: 100px;
         font-size: 20px;
     }
@@ -502,58 +510,56 @@ h1 {
 
     #conteudo-1 {
         width: 100%;
-        height: 356px;
+        height: auto;
         display: flex;
         flex-direction: row;
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
 
     .video-conteudo-1 {
         width: 50%;
-        height: 356px;
-        padding-top: 20px;
+        height: auto;
+        margin-top: 0;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .video-conteudo-1>iframe {
-        border: 10px black inset;
+        border: 8px black inset;
     }
 
     h2 {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .texto-conteudo-1 {
-        width: 705px;
-        height: 356px;
+        width: 50%;
+        height: auto;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         display: flex;
-        align-items: center;
         flex-direction: column;
-        padding-right: 40px;
+        justify-content: center;
+        margin: 10px;
     }
 
     .texto-conteudo-1>p {
         line-height: 1.5;
         text-align: justify;
-    }
-
-    .texto-conteudo-1>h2 {
-        padding-top: 20px;
+        display: flex;
+        display: block;
     }
 
     /* fim do conteudo 1 */
     /* inicio do conteudo 2 */
     #conteudo-2 {
         width: 100%;
-        height: 350px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -566,8 +572,9 @@ h1 {
     }
 
     .temas-atuais {
-        height: 250px;
-        min-width: 90%;
+        /*height: 250px;*/
+        height: auto;
+        min-width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -592,7 +599,7 @@ h1 {
     }
 
     .tema-atual>span {
-        font-size: 18px;
+        font-size: 16px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         line-height: 2.0;
     }
@@ -601,15 +608,18 @@ h1 {
     /* inicio da enquete-formulário */
 
     #formulario {
-        margin-bottom: 20px;
-        ;
+        padding-bottom: 30px;
         width: 100%;
-        height: 400px;
+        height: auto;
         display: flex;
-        justify-content: center;
         font-family: Arial, Helvetica, sans-serif;
         background-color: whitesmoke;
         padding-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .form-enquete{
+        width:80%;
     }
 
     .form-titulo {
@@ -672,7 +682,7 @@ h1 {
     #rodape {
         width: 100%;
         height: auto;
-        margin-top: 30px;
+        margin-top: 0;
         bottom: 0;
         left: 0;
         background-color: white;
