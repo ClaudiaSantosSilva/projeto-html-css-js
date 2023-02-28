@@ -35,7 +35,6 @@ body {
 .cabecalho {
     margin-left: 10px;
     margin-right: 10px;
-    /*padding-left: 50px;*/
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -70,7 +69,45 @@ h1 {
 
 /* fim do cabeçalho*/
 /*inicio do menu */
-#menu {
+#menu-grande{
+    display: none;
+}
+
+#menu-pequeno{
+    width: 100%;
+    height: auto;
+    background-color: #b3ffe3;
+    display: flex;
+    align-items: center;
+    
+}
+.menu-pequeno>ul>li{
+    list-style: none;
+    line-height: 2.0;
+}
+
+.menu-pequeno>ul>li>a{
+    border: 2px solid green;
+    border-radius: 8px;
+    font-size: 17px;
+    
+}
+
+.menu-pequeno ul ul li{
+    display: none;
+}
+ 
+.menu-pequeno ul:hover li{
+     display:block;
+     
+}
+
+a{
+    text-decoration: none;
+}
+ 
+
+/*#menu-grande {
     width: 100%;
     height: auto;
     background-color: #b3ffe3;
@@ -79,7 +116,7 @@ h1 {
         
 }
 
-.menu>a {
+.menu-grande>a {
     border: 2px solid green;
     border-radius: 8px;
     text-decoration: none;
@@ -90,10 +127,10 @@ h1 {
      
 }
 
-.menu>a:hover {
+.menu-grande>a:hover {
     font-weight: bold;
     background-color: white;
-}
+}*/
 
 /* fim do menu */
 /* inicio do conteudo 1 */
@@ -184,9 +221,10 @@ h2{
 }
 
 .tema-atual>span {
-    font-size: 17px;
+    font-size: 16px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 1.5;
+    text-align: center;
     
 }
 
@@ -489,7 +527,10 @@ h2{
 
     /* fim do cabeçalho*/
     /*inicio do menu */
-    #menu {
+    #menu-pequeno{
+        display:none;
+    }
+    #menu-grande {
         width: 100%;
         height: 40px;
         background-color: #b3ffe3;
@@ -499,7 +540,7 @@ h2{
 
     }
 
-    .menu>a {
+    .menu-grande>a {
         border: 2px solid green;
         border-radius: 8px;
         text-decoration: none;
@@ -509,11 +550,12 @@ h2{
 
     }
 
-    .menu>a:hover {
+    .menu-grande>a:hover {
         font-weight: bold;
         background-color: white;
     }
-
+   
+    
     /* fim do menu */
     /* inicio do conteudo 1 */
 
