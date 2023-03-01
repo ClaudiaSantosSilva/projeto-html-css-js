@@ -20,6 +20,7 @@ body {
     background-color: white;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .logo {
@@ -36,6 +37,7 @@ body {
     margin-right: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 200px;
     width: 100%;
 
@@ -105,32 +107,6 @@ a{
     text-decoration: none;
 }
  
-
-/*#menu-grande {
-    width: 100%;
-    height: auto;
-    background-color: #b3ffe3;
-    display: flex;
-    align-items: center;
-        
-}
-
-.menu-grande>a {
-    border: 2px solid green;
-    border-radius: 8px;
-    text-decoration: none;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 17px;
-    
-     
-}
-
-.menu-grande>a:hover {
-    font-weight: bold;
-    background-color: white;
-}*/
-
 /* fim do menu */
 /* inicio do conteudo 1 */
 
@@ -414,7 +390,7 @@ h2{
 }
     
 /* fim itens conteudo pagina de contato*/
-/* inicio de sobre a autora */
+/* inicio da página sobre a autora */
 #conteudo-autora {
     width: 100%;
     height:auto;
@@ -459,7 +435,7 @@ h2{
     padding-left: 15px;
 }
 
-/* fim de sobre a autora */
+/* fim da página sobre a autora */
 
 @media screen and (min-width: 481px) {
     body{
@@ -619,83 +595,14 @@ h2{
 
     /* fim do conteudo 2 */
     /* inicio da enquete-formulário */
-/*APAGAR TODA ENQUETE-FORMULÁRIO*/
-    /*#formulario {
-        padding-bottom: 30px;
-        width: 100%;
-        height: auto;
-        display: flex;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: whitesmoke;
-        padding-top: 20px;
-        margin-bottom: 15px;
-    }
 
-    .form-enquete{
-        width:80%;
-    }
-
-    .form-titulo {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30x;
-        color: red;
-        text-align: center;
-        margin-top: 0;
-    }
-
-    .form-item {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-    }
-
-    .form-item-nome {
-        display: flex;
-        flex-direction: column;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 100%;
-    }
-
-    .form-item-enviar {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        max-width: 20%;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .form-botao-enviar {
-        border: 2px black solid;
-        border-radius: 8px;
-    }
-
-    .form-botao-enviar:hover {
-        font-weight: bold;
-    }
-
-    .item-form-inline {
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        padding-top: 10px;
-        padding-bottom: 15px;
-    }
-
-    .form-campo-textarea {
-        padding-top: 10px;
-        padding-bottom: 8px;
-    }*/
 
     /* fim da enquete-formulário */
     /* inicio do rodapé */
     
 
     /*fim do rodapé*/
-    /* inicio itens conteudo pagina de contato*/
+    /* inicio da pagina de contato*/
     #contato-container {
         padding: 10px 0 10px 0;
     }
@@ -736,9 +643,9 @@ h2{
         padding: 20px;
     }
 
-    /* fim itens conteudo pagina de contato*/
+    /* fim da pagina de contato*/
 
-    /* inicio de sobre a autora */
+    /* inicio da página sobre a autora */
     #conteudo-autora {
         width: 100%;
         display: flex;
@@ -780,9 +687,8 @@ h2{
         padding-left: 0;
     }
 
-    /* fim de sobre a autora */
-
 }
+/* fim da pagina sobre a autora */
 
 @media screen and (min-width: 769px) {
     body{
@@ -790,7 +696,6 @@ h2{
         justify-content:center;
     }
     #toda-a-pagina {
-        /*max-width: 80%;*/
         width:100%;
         height:auto;
         
@@ -945,7 +850,6 @@ h2{
     }
 
     .temas-atuais {
-        /*height: 250px;*/
         height: auto;
         min-width: 100%;
         display: flex;
@@ -1105,7 +1009,7 @@ h2{
 
     /*fim do rodapé*/
 
-    /* inicio itens conteudo pagina de contato*/
+    /* inicio da página de contato*/
     #contato-container {
         width: 100%;
         height: auto;
@@ -1166,8 +1070,8 @@ h2{
         color: green;
     }
 
-    /* fim itens conteudo pagina de contato*/
-    /* inicio de sobre a autora */
+    /* fim da página de contato*/
+    /* inicio da página sobre a autora */
     #conteudo-autora {
         width: 100%;
         display: flex;
@@ -1209,5 +1113,5 @@ h2{
         padding-left: 0;
     }
 
-    /* fim de sobre a autora */
+    /* fim da página sobre a autora */
 }    
