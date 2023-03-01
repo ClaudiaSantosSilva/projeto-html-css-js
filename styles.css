@@ -20,7 +20,6 @@ body {
     background-color: white;
     display: flex;
     flex-direction: row;
-
 }
 
 .logo {
@@ -468,6 +467,329 @@ h2{
         justify-content:center;
     }
     #toda-a-pagina {
+        width:100%;
+        height:auto;
+        
+    }
+    
+    /* inicio do cabeçalho*/
+    #topo {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 80%;
+
+    }
+
+    h1 {
+        font-size: 35px;
+        font-family: 'Shantell Sans', cursive;
+        width: 100%;
+        margin-top: 10px;
+        color: green;
+    }
+
+    .titulo {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .autora {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 100px;
+        font-size: 19px;
+    }
+
+    /* fim do cabeçalho*/
+    /*inicio do menu */
+    
+    
+    /* fim do menu */
+    /* inicio do conteudo 1 */
+
+    #conteudo-1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .video-conteudo-1 {
+        width: 80%;
+        height: auto;
+        margin-top: 0;
+        display: flex;
+        
+    }
+
+    .video-conteudo-1>iframe {
+        border: 8px black inset;
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+
+    .texto-conteudo-1 {
+        width: 50%;
+        height: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .texto-conteudo-1>p {
+        line-height: 1.5;
+        text-align: justify;
+        display: none;
+
+    }
+
+    /* fim do conteudo 1 */
+    /* inicio do conteudo 2 */
+    #conteudo-2 {
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-conteudo-2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+
+    }
+
+    .temas-atuais {
+        height: auto;
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 30px;
+
+    }
+
+    .tema-atual {
+        width: 33%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tema-atual>img {
+        width: 70%;
+        height: 65px;
+        border-radius: 10px;
+    }
+
+    .tema-atual>span {
+        font-size: 14px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* fim do conteudo 2 */
+    /* inicio da enquete-formulário */
+/*APAGAR TODA ENQUETE-FORMULÁRIO*/
+    /*#formulario {
+        padding-bottom: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: whitesmoke;
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .form-enquete{
+        width:80%;
+    }
+
+    .form-titulo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30x;
+        color: red;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .form-item-nome {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .form-item-enviar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: 20%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .form-botao-enviar {
+        border: 2px black solid;
+        border-radius: 8px;
+    }
+
+    .form-botao-enviar:hover {
+        font-weight: bold;
+    }
+
+    .item-form-inline {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .form-campo-textarea {
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }*/
+
+    /* fim da enquete-formulário */
+    /* inicio do rodapé */
+    
+
+    /*fim do rodapé*/
+    /* inicio itens conteudo pagina de contato*/
+    #contato-container {
+        padding: 10px 0 10px 0;
+    }
+
+    .ident-form-contato {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .foto-form-contato {
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        
+    }
+
+    .foto-form-contato>img {
+        height: auto;
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    .texto-form-contato {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-family: 'Shantell Sans', cursive;
+        padding: 20px;
+    }
+
+    /* fim itens conteudo pagina de contato*/
+
+    /* inicio de sobre a autora */
+    #conteudo-autora {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto {
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin-left:0;
+        margin-top: 20px;
+        
+    }
+
+    .foto>img {
+        width: 60%;
+        height: auto;
+        border-radius: 50%;
+
+    }
+
+    .formacao {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        width:100%;
+    }
+
+    .formacao>ol{
+        padding-left: 20px;
+    }
+
+    .formacao>ol>li {
+        list-style: none;
+        line-height: 2.5;
+        padding-left: 0;
+    }
+
+    /* fim de sobre a autora */
+
+}
+
+@media screen and (min-width: 769px) {
+    body{
+        display: flex;
+        justify-content:center;
+    }
+    #toda-a-pagina {
         /*max-width: 80%;*/
         width:100%;
         height:auto;
@@ -531,7 +853,7 @@ h2{
         display:none;
     }
     #menu-grande {
-        width: 100%;
+        max-width: 100%;
         height: 40px;
         background-color: #b3ffe3;
         display: flex;
@@ -544,8 +866,8 @@ h2{
         border: 2px solid green;
         border-radius: 8px;
         text-decoration: none;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 18px;
 
     }
@@ -697,6 +1019,14 @@ h2{
         width: 100%;
     }
 
+    .item-form-inline>input{
+        margin:0 12px 0 0;
+        vertical-align: middle;
+        margin: 0;
+        position: relative;
+        top: 0px;
+    }
+
     .form-item-enviar {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -729,6 +1059,7 @@ h2{
     }
 
     /* fim da enquete-formulário */
+
     /* inicio do rodapé */
     #rodape {
         width: 100%;
@@ -773,6 +1104,7 @@ h2{
     }
 
     /*fim do rodapé*/
+
     /* inicio itens conteudo pagina de contato*/
     #contato-container {
         width: 100%;
@@ -786,6 +1118,7 @@ h2{
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        padding: 0;
 
     }
 
@@ -877,5 +1210,4 @@ h2{
     }
 
     /* fim de sobre a autora */
-
-}
+}    
