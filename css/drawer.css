@@ -1,0 +1,19 @@
+.menu-drawer{
+    width: 100%;
+    height: 40px;
+    background-color: #b3ffe3;
+}
+
+.menu-drawer img{
+    height: 100%;
+    width: auto;
+    background-color: #fff4de;
+}
+
+.menu-open-drawer-button{
+    width: 10%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}

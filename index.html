@@ -1,140 +1,232 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
-        <title>Blog Conhecendo as Ciências da Nutrição</title>
-    </head>
-    <body>
-        <div id="toda-a-pagina">
-<!--início do topo-->
-        <div id="topo">
-            <div class="logo">
-                <img src="imagens/logo-nutricao-300x258.jpg">
-            </div>
-            <div class="cabecalho">
-                <div class="titulo">
-                <h1>Conhecendo as Ciências da Nutrição</h1>
-                </div>
-                
-                <div class="autora">   
-                <span>Claudia Santos Silva</span>
-                <span>Nutricionista Clínica</span>
-                </div> 
-                  
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Shantell+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/drawer.css" />
+    <title>Blog Conhecendo as Ciências da Nutrição</title>
+  </head>
+  <body>
+    <div id="toda-a-pagina">
+      <!--início do topo-->
+      <div id="topo">
+        <div class="logo">
+          <img src="imagens/logo-nutricao-300x258.jpg" />
         </div>
-<!--fim do topo-->
-<!--inicio do menu-->
-<div id="menu-grande">
-<div class="menu-grande">
-    <a href="index.html">Início</a>
-    <a href="sobre-a-autora.html">Sobre a Autora</a>
-    <a href="#">Especialidades</a>
-    <a href="receitas.html">Receitas Saudáveis</a>
-    <a href="contato.html">Contato</a>
-</div>
-</div>
-<div id="menu-pequeno">
-    <div class="menu-pequeno">
+        <div class="cabecalho">
+          <div class="titulo">
+            <h1>Conhecendo as Ciências da Nutrição</h1>
+          </div>
+
+          <div class="autora">
+            <span>Claudia Santos Silva</span>
+            <span>Nutricionista Clínica</span>
+          </div>
+        </div>
+      </div>
+      <!--fim do topo-->
+      <!--inicio do menu-->
+      <div id="menu-grande" class="menu-grande">
+          <a href="index.html">Início</a>
+          <a href="sobre-a-autora.html">Sobre a Autora</a>
+          <a href="#">Especialidades</a>
+          <a href="receitas.html">Receitas Saudáveis</a>
+          <a href="contato.html">Contato</a>
+        
+      </div>
+      <div id="menu-pequeno" class="menu-pequeno">
         <ul>
-            <li><a href="#">MENU</a></li>
-            <ul>
-              <li><a href="index.html">INÍCIO</a></li>&nbsp
-              <li><a href="sobre-a-autora.html">SOBRE A AUTORA</a></li>&nbsp
-              <li><a href="#">ESPECIALIDADES</a></li>&nbsp
-              <li><a href="#">RECEITAS SAUDÁVEIS</a></li>&nbsp
-              <li><a href="contato.html">CONTATO</a></li>&nbsp
-            </ul>
+          <li><a href="#">MENU</a></li>
+          <ul>
+            <li><a href="index.html">INÍCIO</a></li>
+            &nbsp
+            <li><a href="sobre-a-autora.html">SOBRE A AUTORA</a></li>
+            &nbsp
+            <li><a href="#">ESPECIALIDADES</a></li>
+            &nbsp
+            <li><a href="#">RECEITAS SAUDÁVEIS</a></li>
+            &nbsp
+            <li><a href="contato.html">CONTATO</a></li>
+            &nbsp
+          </ul>
         </ul>
-    </div>
-</div>
+      </div>
+      <div id="menu-drawer" class="menu-drawer">
+      <button id="menu-open-drawer-button" class="menu-open-drawer-button">
+        <img src="imagens/icon-menu-hamburguer.png">
+      </button>
+      </div>
 
-<!--fim do menu-->
-<!--inicio do conteudo 1-->
-<div id="conteudo-1">
-<div class="video-conteudo-1">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/x9xFeqUr35k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-<div class="texto-conteudo-1">
-    <h2>Um pouco da história da Nutrição no Brasil</h2>
-    <p>O vídeo ao lado mostra como e quando surgiu a formação em Nutrição no Brasil, quando ocorreu sua regulamentação e a criação dos Conselhos Federal e Regionais e o motivo de ser comemorado o dia do nutricionista em 31 de agosto.</p>
-    <p>Nele vemos, ainda, como a profissão foi crescendo no decorrer dos anos quando, uma lei em 1991, reconheceu os profissionais nutricionistas como especialistas em alimentação e nutrição.</p>
-</div>
-</div>
-<!--fim do conteudo 1-->
-<!--inicio do conteudo 2-->
-<div id="conteudo-2">
-    <div class="titulo-conteudo-2">
-        <h2>Temas atuais</h2>
-    </div>
-    
-    <div class="temas-atuais">
-        <div class="tema-atual">
-            <img src="imagens/medicamentos.jpg">
+      <!--fim do menu-->
+      <!--inicio do conteudo 1-->
+      <div id="conteudo-1">
+        <div class="video-conteudo-1">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/x9xFeqUr35k"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="texto-conteudo-1">
+          <h2>Um pouco da história da Nutrição no Brasil</h2>
+          <p>
+            O vídeo ao lado mostra como e quando surgiu a formação em Nutrição
+            no Brasil, quando ocorreu sua regulamentação e a criação dos
+            Conselhos Federal e Regionais e o motivo de ser comemorado o dia do
+            nutricionista em 31 de agosto.
+          </p>
+          <p>
+            Nele vemos, ainda, como a profissão foi crescendo no decorrer dos
+            anos quando, uma lei em 1991, reconheceu os profissionais
+            nutricionistas como especialistas em alimentação e nutrição.
+          </p>
+        </div>
+      </div>
+      <!--fim do conteudo 1-->
+      <!--inicio do conteudo 2-->
+      <div id="conteudo-2">
+        <div class="titulo-conteudo-2">
+          <h2>Temas atuais</h2>
+        </div>
+
+        <div class="temas-atuais">
+          <div class="tema-atual">
+            <img src="imagens/medicamentos.jpg" />
             <span>Remédios para emagrecer</span>
-        <a href="#">Ler o texto aqui</a>
+            <a href="#">Ler o texto aqui</a>
+          </div>
+          <div class="tema-atual">
+            <img src="imagens/casal-idosos.jpg" />
+            <span>Sarcopenia em idosos</span>
+            <a href="#">Ler o texto aqui</a>
+          </div>
+          <div class="tema-atual">
+            <img src="imagens/alimentos-saudaveis.jpg" />
+            <span>Alimentação e a prevenção de câncer</span>
+            <a href="#">Ler o texto aqui</a>
+          </div>
         </div>
-        <div class="tema-atual">
-            <img src="imagens/casal-idosos.jpg">
-        <span>Sarcopenia em idosos</span>
-        <a href="#">Ler o texto aqui</a>
+      </div>
+      <!--fim do conteudo 2-->
+      <!--inicio do formulário-->
+      <div id="formulario">
+        <form
+          class="form-enquete"
+          method="post"
+          action="https://getform.io/f/8e17d5c2-2a2c-476f-8a0a-ac10e049770b"
+        >
+          <h3 class="form-titulo">Qual tema você gostaria de ver aqui?</h3>
+          <div class="form-item-nome">
+            <label for="form-nome">Nome completo</label>
+            <input
+              type="text"
+              placeholder="Seu nome"
+              id="form-nome"
+              name="nome"
+              class="form-campo-texto"
+              required
+              minlength="12"
+              maxlength="22"
+            />
+          </div>
+          <div class="item-form-inline">
+            <label for="form-inline-profissão">Selecione sua profissão:</label>
+            <input
+              type="radio"
+              name="profissão"
+              id="escolha-profissao"
+              class="escolha-profissao"
+              value="nutr"
+              required
+            /><label for="escolha-profissão">Nutricionista</label>
+            <input
+              type="radio"
+              name="profissão"
+              id="escolha-profissao"
+              class="escolha-profissao"
+              value="med"
+              required
+            /><label for="escolha-profissão">Médico(a)</label>
+            <input
+              type="radio"
+              name="profissão"
+              id="escolha-profissao"
+              class="escolha-profissao"
+              value="enf"
+              required
+            /><label for="escolha-profissão">Enfermeiro(a)</label>
+            <input
+              type="radio"
+              name="profissão"
+              id="escolha-profissao"
+              class="escolha-profissao"
+              value="outros"
+              required
+            /><label for="escolha-profissao">Outros</label>
+          </div>
+          <div class="form-item">
+            <label for="form-email">Email</label>
+            <input
+              type="email"
+              placeholder="Seu email"
+              id="form-email"
+              name="email"
+              class="form-email"
+            />
+          </div>
+          <div class="form-item">
+            <textarea
+              placeholder="Deixe a sua sugestão:"
+              name="sugestao"
+              class="form-campo-textarea"
+              rows="6"
+              minlength="16"
+              maxlength="300"
+              required
+            ></textarea>
+          </div>
+          <div class="form-item-enviar">
+            <input
+              type="submit"
+              value="Enviar agora"
+              class="form-botao-enviar"
+            />
+          </div>
+        </form>
+      </div>
+      <!--fim do formulário-->
+      <!--inicio rodapé-->
+      <div id="rodape">
+        <div class="links-rodape">
+          <div class="link-li-rodape">
+            <a href="https://www.linkedin.com/in/claudiassilva"
+              ><img src="imagens/simbolo-linkedin.jpg"
+            /></a>
+          </div>
+          <div class="link-inst-rodapé">
+            <a href="#"><img src="imagens/instagram-icone.webp" /></a>
+          </div>
         </div>
-        <div class="tema-atual">
-            <img src="imagens/alimentos-saudaveis.jpg">
-        <span>Alimentação e a prevenção de câncer</span>
-        <a href="#">Ler o texto aqui</a>
+        <div class="texto-rodape">
+          <span
+            ><img src="imagens/copyright.png" />2023 | Todos os direitos
+            reservados | Nutr. Claudia Santos Silva</span
+          >
         </div>
+      </div>
+      <!-- fim do rodapé-->
     </div>
-</div>
-<!--fim do conteudo 2-->
-<!--inicio do formulário-->
-<div id="formulario">
-<form class="form-enquete" method="post" action="https://getform.io/f/8e17d5c2-2a2c-476f-8a0a-ac10e049770b">
-  <h3 class="form-titulo">Qual tema você gostaria de ver aqui?</h3> 
-  <div class="form-item-nome">
-    <label for="form-nome">Nome completo</label>
-    <input type="text" placeholder="Seu nome" id="form-nome" name="nome" class="form-campo-texto" required minlength="12" maxlength="22">
-  </div>
-  <div class="item-form-inline">
-    <label for="form-inline-profissão">Selecione sua profissão:</label>
-    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="nutr" required><label for="escolha-profissão">Nutricionista</label>
-    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="med" required><label for="escolha-profissão">Médico(a)</label>
-    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="enf" required><label for="escolha-profissão">Enfermeiro(a)</label>
-    <input type="radio" name="profissão" id="escolha-profissao" class="escolha-profissao" value="outros" required><label for="escolha-profissao">Outros</label>
-  </div> 
-   <div class="form-item">
-    <label for="form-email">Email</label>
-    <input type="email" placeholder="Seu email" id="form-email" name="email" class="form-email">
-   </div>
-  <div class="form-item">
-    <textarea placeholder="Deixe a sua sugestão:" name="sugestao" class="form-campo-textarea" rows="6" minlength="16" maxlength="300" required></textarea>
-  </div>
-  <div class="form-item-enviar">
-    <input type="submit" value="Enviar agora" class="form-botao-enviar">
-  </div>
-</form>
-</div>
-<!--fim do formulário-->
-<!--inicio rodapé-->
-<div id="rodape">
-    <div class="links-rodape">
-    <div class="link-li-rodape">
-        <a href="https://www.linkedin.com/in/claudiassilva"><img src="imagens/simbolo-linkedin.jpg"></a>
-    </div>
-    <div class="link-inst-rodapé">
-        <a href="#"><img src="imagens/instagram-icone.webp"></a>
-    </div>
-    </div>
-    <div class="texto-rodape">
-        <span><img src="imagens/copyright.png">2023 | Todos os direitos reservados | Nutr. Claudia Santos Silva</span>
-    </div>
-
-</div>
-<!-- fim do rodapé-->
-</div>
-<!--fim de toda-a-pagina-->
-    </body>
+    <!--fim de toda-a-pagina-->
+    <script src="js/script.js"></script>
+    <script src="js/drawer.js"></script>
+  </body>
 </html>
