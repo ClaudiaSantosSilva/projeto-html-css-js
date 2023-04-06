@@ -10,10 +10,30 @@
     background-color: #fff4de;
 }
 
-.menu-open-drawer-button{
+.button-open-drawer{
     width: 10%;
     height: 80%;
     border-radius: 10px;
     margin-left: 20px;
     margin-top: 5px;
+    cursor: pointer;
+}
+
+.drawer-links{
+  width: 180px;
+  height: 180px;
+  position: fixed;
+  left: -190px;
+  transition: left 1s;
+  top: 240px;
+  background-color: white;
+  /*box-shadow: -12px 10px 27px -10px rgba(0,0,0,0.5);*/
+  padding: 10px 0 10px 10px;
+  
+}
+
+.drawer-links > .link-drawer{
+   display:block;
+   padding: 6px; 
+   border-bottom: solid 2px #808080;
 }
