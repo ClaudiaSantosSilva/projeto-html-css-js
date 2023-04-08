@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/drawer.css" />
         <title>Blog Conhecendo as Ciências da Nutrição</title>
     </head>
     <body>
@@ -33,7 +34,7 @@
         <a href="index.html">Início</a>
         <a href="sobre-a-autora.html">Sobre a Autora</a>
         <a href="#">Especialidades</a>
-        <a href="receitas.html">Receitas Saudáveis</a>
+        <a href="dicas-nutricionais.html">Dicas Nutricionais</a>
         <a href="contato.html">Contato</a>
     </div>
     </div>
@@ -45,12 +46,27 @@
                   <li><a href="index.html">INÍCIO</a></li>&nbsp
                   <li><a href="sobre-a-autora.html">SOBRE A AUTORA</a></li>&nbsp
                   <li><a href="#">ESPECIALIDADES</a></li>&nbsp
-                  <li><a href="#">RECEITAS SAUDÁVEIS</a></li>&nbsp
+                  <li><a href="dicas-nutricionais.html">DICAS NUTRICIONAIS</a></li>&nbsp
                   <li><a href="contato.html">CONTATO</a></li>&nbsp
                 </ul>
             </ul>
         </div>
     </div>
+    <div id="menu-drawer" class="menu-drawer">
+        <button id="button-open-drawer" class="button-open-drawer">
+          <img src="imagens/icon-menu-hamburguer.png">
+        </button>
+        </div>
+<!--inicio do drawer-->
+        <aside id="drawer-links" class="drawer-links">
+          <a href="index.html" class="link-drawer">INÍCIO</a>
+          <a href="sobre-a-autora.html" class="link-drawer">SOBRE A AUTORA</a>
+          <a href="#" class="link-drawer">ESPECIALIDADES</a>
+          <a href="dicas-nutricionais.html" class="link-drawer">DICAS NUTRICIONAIS</a>
+          <a href="contato.html" class="link-drawer">CONTATO</a>
+        </aside>
+  
+<!--fim do drawer-->   
 <!-- fim do menu -->
 <!-- inicio do conteudo -->
 <div id="contato-container">
@@ -90,3 +106,8 @@
 
 </div>
 <!-- fim do rodape-->
+</div>
+<script src="js/script.js"></script>
+<script src="js/drawer.js"></script>
+</body>
+</html>
