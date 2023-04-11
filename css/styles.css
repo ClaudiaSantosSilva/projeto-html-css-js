@@ -156,7 +156,7 @@ h2{
 /* inicio do conteudo 2 */
 #conteudo-2 {
     width: 100%;
-    height: 350px;
+    height: 400px;
     padding-top: 10px;
     padding-bottom: 50px;
     display: flex;
@@ -198,16 +198,24 @@ h2{
     width: 100%;
     height: 100px;
     border-radius: 10px;
-    
+    margin-bottom: 10px;    
 }
 
-.tema-atual>span {
+.tema-atual-titulo-1, .tema-atual-titulo-2, .tema-atual-titulo-3 {
     font-size: 16px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 1.5;
     text-align: center;
     
 }
+
+.texto-tema-atual-1, .texto-tema-atual-2, .texto-tema-atual-3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.0;
+    text-align: left; 
+}
+
 
 .texto-tema-atual-1{
     display:none;
@@ -220,6 +228,7 @@ h2{
 .texto-tema-atual-3{
     display: none;
 }
+
 
 
 /* fim do conteudo 2 */
@@ -603,17 +612,36 @@ h2{
 
     .tema-atual>img {
         width: 70%;
-        height: 65px;
+        height: 85px;
         border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
-    .tema-atual>span {
+    /*.tema-atual>span {
         font-size: 14px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         line-height: 1.5;
         text-align: center;
         margin-top: 10px;
+    }*/
+
+    .tema-atual-titulo-1, .tema-atual-titulo-2, .tema-atual-titulo-3 {
+        font-size: 18px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height: 1.5;
+        text-align: center;
+        
     }
+    
+    .texto-tema-atual-1, .texto-tema-atual-2, .texto-tema-atual-3{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.0;
+        text-align: left; 
+        margin-left: 10px;
+    }
+    
 
     /* fim do conteudo 2 */
     /* inicio da enquete-formulário */
@@ -903,10 +931,26 @@ h2{
         border-radius: 10px;
     }
 
-    .tema-atual>span {
+    /*.tema-atual>span {
         font-size: 16px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         line-height: 2.0;
+    }*/
+
+    .tema-atual-titulo-1, .tema-atual-titulo-2, .tema-atual-titulo-3 {
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height: 1.5;
+        text-align: center;
+        
+    }
+    
+    .texto-tema-atual-1, .texto-tema-atual-2, .texto-tema-atual-3{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.0;
+        text-align: left; 
+        margin-left: 10px;
     }
 
     /* fim do conteudo 2 */
