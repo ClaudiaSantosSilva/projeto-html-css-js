@@ -117,7 +117,7 @@ a{
     display: flex;
     flex-direction: column-reverse;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .video-conteudo-1 {
@@ -157,11 +157,12 @@ h2{
 #conteudo-2 {
     width: 100%;
     height: 350px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .titulo-conteudo-2 {
@@ -176,6 +177,8 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 60px;
+    
 
 }
 
@@ -187,6 +190,7 @@ h2{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    cursor:pointer;
 
 }
 
@@ -194,6 +198,7 @@ h2{
     width: 100%;
     height: 100px;
     border-radius: 10px;
+    
 }
 
 .tema-atual>span {
@@ -203,6 +208,19 @@ h2{
     text-align: center;
     
 }
+
+.texto-tema-atual-1{
+    display:none;
+}
+
+.texto-tema-atual-2{
+    display:none;
+}
+
+.texto-tema-atual-3{
+    display: none;
+}
+
 
 /* fim do conteudo 2 */
 /* inicio da enquete-formulário */
