@@ -1,3 +1,7 @@
+tituloSobreAutora=document.getElementById("titulo-sobre-autora");
+tituloSobreAutora.innerHTML="Sobre a autora";
+
+
 let listaFormacao=document.getElementById("formacao");
 let formacoes=[
     "Graduada em Nutrição pela UERJ",
@@ -9,3 +13,4 @@ let formacoes=[
 ]
 
 listaFormacao.innerHTML= formacoes.map((f)=>"<li>"+f+"</li>").join("");
+
