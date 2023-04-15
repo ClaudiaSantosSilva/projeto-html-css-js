@@ -22,7 +22,7 @@
 .drawer-links{
   width: 180px;
   height: 180px;
-  position: fixed;
+  position: absolute;
   left: -190px;
   transition: left 1s;
   top: 240px;

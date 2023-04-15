@@ -1,3 +1,29 @@
-.dicas-nutricionais-section{}
+.dicas-nutricionais-section{
+    margin-left: 15px;
+}
 
-.dicas-nutricionais-list{}
+.dicas-nutricionais-list-item-info{
+    margin-left: 15px;
+}
+
+.dicas-nutricionais-list-item-image-src{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.dicas-nutricionais-list-item{
+    margin-top:20px;
+    margin-bottom: 15px;
+    padding:10px;
+}
+
+@media screen and (min-width: 481px){
+    .dicas-nutricionais-list-item-titulo{
+        font-size: 24px;
+    }
+
+    .dicas-nutricionais-list-item-texto{
+        font-size: 19px;
+    }
+}
