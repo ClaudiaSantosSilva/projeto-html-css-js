@@ -1,3 +1,10 @@
+const dicasNutricionaisSection=document.querySelector('#dicas-nutricionais-section');
+const dicasNutricionaisList=document.querySelector('#dicas-nutricionais-list');
+const titulo=document.createElement('h2');
+titulo.className='dicas-nutricionais-titulo';
+titulo.innerHTML='Dicas Nutricionais';
+dicasNutricionaisSection.insertBefore(titulo,dicasNutricionaisList);
+
 let dicasNutricionais=[
     {
       createdAt: "Há 1 dia", 
@@ -21,7 +28,6 @@ let dicasNutricionais=[
     },
 ];
 
-let dicasNutricionaisList=document.querySelector('#dicas-nutricionais-list');
 dicasNutricionais.forEach((dicaData) =>{
     const dicaItem=getDicaItem(
         dicaData.createdAt,

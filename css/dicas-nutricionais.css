@@ -1,9 +1,24 @@
 .dicas-nutricionais-section{
     margin-left: 15px;
+    padding-top: 20px;
+}
+
+.dicas-nutricionais-list-item{
+    box-shadow:  0 0 0.5em gold, 0 0 0.5em red;
+    margin-right: 10px;
 }
 
 .dicas-nutricionais-list-item-info{
-    margin-left: 15px;
+   display:flex;
+   flex-direction: row;
+   gap:20px;
+}
+
+.dicas-nutricionais-list-item-info-content{
+    display:flex;
+    align-items: flex-end;
+    text-decoration: underline;
+    
 }
 
 .dicas-nutricionais-list-item-image-src{
