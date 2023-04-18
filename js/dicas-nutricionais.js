@@ -1,9 +1,9 @@
 const dicasNutricionaisSection=document.querySelector('#dicas-nutricionais-section');
 const dicasNutricionaisList=document.querySelector('#dicas-nutricionais-list');
-const titulo=document.createElement('h2');
-titulo.className='dicas-nutricionais-titulo';
-titulo.innerHTML='Dicas Nutricionais';
-dicasNutricionaisSection.insertBefore(titulo,dicasNutricionaisList);
+const legendaElem=document.createElement('h2');
+legendaElem.className='dicas-nutricionais-titulo';
+legendaElem.innerHTML='Dicas Nutricionais';
+dicasNutricionaisSection.insertBefore(legendaElem,dicasNutricionaisList);
 
 let dicasNutricionais=[
     {

@@ -2,6 +2,19 @@
     width: 100%;
     height: 420px;
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 80px;
+    display:flex;
+    align-items:last baseline;
+    justify-content: center;
+  }
+
+  .legenda-imagens{
+    color: red;
+    background-color:rgba(0,0,0,0.5);
+    font-size: 25px;
+    padding: 10px 15px;
+
     
   }
+
+  

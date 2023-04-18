@@ -1,6 +1,21 @@
 [
-    "imagens/nutricao-clinica.jpg",
-    "imagens/nutricao-enteral.jpg",
-    "imagens/nutricao-pacientes-cancer.jpeg",
-    "imagens/nutricao-pacientes-idosos-1.webp"
+  {
+    "url": "imagens/nutricao-clinica.jpg",
+    "legenda": "Nutrição Clínica"
+  },
+
+  {
+    "url": "imagens/nutricao-enteral.jpg",
+    "legenda": "Nutrição enteral e parenteral"
+  },
+
+  {
+    "url": "imagens/nutricao-pacientes-cancer.jpeg",
+    "legenda": "Nutrição em Oncologia"
+  },
+
+  {
+    "url": "imagens/nutricao-pacientes-idosos-1.webp",
+    "legenda": "Nutrição na Geriatria e Gerontologia"
+  }
 ]
