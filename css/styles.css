@@ -460,7 +460,7 @@ h2{
 
 .titulo-sobre-autora{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 28px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -482,6 +482,7 @@ h2{
     padding-right: 15px;
     padding-left: 15px;
 }
+
 
 /* fim da página sobre a autora */
 
@@ -743,10 +744,7 @@ h2{
         margin-top: 30px;
     }
 
-    .titulo-sobre-autora{
-        font-size: 20px;
-    }
-
+    
     .formacao-autora {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
@@ -1192,10 +1190,6 @@ h2{
         height: 200px;
         border-radius: 50%;
 
-    }
-
-    .titulo-sobre-autora{
-        font-size: 22px;
     }
 
     .formacao-autora {

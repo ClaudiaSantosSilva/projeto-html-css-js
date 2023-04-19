@@ -76,3 +76,14 @@ dicasNutricionais.forEach((dicaData) =>{
         return dicasNutricionaisListItem;
 
     }
+
+   
+
+const dicasNutricionaisListItemTitulo=document.getElementsByClassName("dicas-nutricionais-list-item-titulo");
+[...dicasNutricionaisListItemTitulo].forEach((titulo)=>{
+   titulo.style.color="#fcb045";
+   
+    
+
+});
+
