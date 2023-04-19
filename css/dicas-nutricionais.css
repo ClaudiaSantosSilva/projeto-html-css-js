@@ -33,6 +33,10 @@
     padding:10px;
 }
 
+.dicas-nutricionais-titulo{
+    font-size: 30px;
+}
+
 @media screen and (min-width: 481px){
     .dicas-nutricionais-list-item-titulo{
         font-size: 24px;

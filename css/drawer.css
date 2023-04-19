@@ -37,3 +37,7 @@
    padding: 6px; 
    border-bottom: solid 2px #808080;
 }
+
+.drawer-links > a{
+    text-transform: uppercase;
+}

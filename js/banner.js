@@ -1,7 +1,3 @@
-
-
-
-
 let bannerImgs=[];
 
 const banner=document.querySelector('#banner');
