@@ -1,112 +1,155 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/drawer.css" />
-        <title>Blog Conhecendo as Ciências da Nutrição</title>
-    </head>
-    <body>
-        <div id="toda-a-pagina">
-<!--início do topo-->
-        <div id="topo">
-            <div class="logo">
-                <img src="imagens/logo-nutricao-300x258.jpg">
-            </div>
-            <div class="cabecalho">
-                <div class="titulo">
-                <h1>Conhecendo as Ciências da Nutrição</h1>
-                </div>
-                
-                <div class="autora">   
-                <span>Claudia Santos Silva</span>
-                <span>Nutricionista Clínica</span>
-                </div> 
-                  
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&family=Roboto:wght@300&family=Shantell+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/drawer.css" />
+    <title>Blog Conhecendo as Ciências da Nutrição</title>
+  </head>
+  <body>
+    <div id="toda-a-pagina">
+      <!--início do topo-->
+      <div id="topo">
+        <div class="logo">
+          <img src="imagens/logo-nutricao-300x258.jpg" />
         </div>
-<!--fim do topo-->
-<!--inicio do menu-->
-<div id="menu-grande" class="menu-grande">
+        <div class="cabecalho">
+          <div class="titulo">
+            <h1>Conhecendo as Ciências da Nutrição</h1>
+          </div>
+
+          <div class="autora">
+            <span>Claudia Santos Silva</span>
+            <span>Nutricionista Clínica</span>
+          </div>
+        </div>
+      </div>
+      <!--fim do topo-->
+      <!--inicio do menu-->
+      <div id="menu-grande" class="menu-grande">
         <a href="index.html">Início</a>
         <a href="sobre-a-autora.html">Sobre a Autora</a>
         <a href="especialidades.html">Especialidades</a>
         <a href="dicas-nutricionais.html">Dicas Nutricionais</a>
         <a href="contato.html">Contato</a>
-    
-    </div>
-    <div id="menu-pequeno">
+      </div>
+      <div id="menu-pequeno">
         <div class="menu-pequeno">
+          <ul>
+            <li><a href="#">menu</a></li>
             <ul>
-                <li><a href="#">menu</a></li>
-                <ul>
-                  <li><a href="index.html">início</a></li>&nbsp
-                  <li><a href="sobre-a-autora.html">sobre a autora</a></li>&nbsp
-                  <li><a href="especialidades.html">especialidades</a></li>&nbsp
-                  <li><a href="dicas-nutricionais.html">dicas nutricionais</a></li>&nbsp
-                  <li><a href="contato.html">contato</a></li>&nbsp
-                </ul>
+              <li><a href="index.html">início</a></li>
+              &nbsp
+              <li><a href="sobre-a-autora.html">sobre a autora</a></li>
+              &nbsp
+              <li><a href="especialidades.html">especialidades</a></li>
+              &nbsp
+              <li><a href="dicas-nutricionais.html">dicas nutricionais</a></li>
+              &nbsp
+              <li><a href="contato.html">contato</a></li>
+              &nbsp
             </ul>
+          </ul>
         </div>
-    </div>
-    <div id="menu-drawer" class="menu-drawer">
+      </div>
+      <div id="menu-drawer" class="menu-drawer">
         <button id="button-open-drawer" class="button-open-drawer">
-          <img src="imagens/icon-menu-hamburguer.png">
+          <img src="imagens/icon-menu-hamburguer.png" />
         </button>
+      </div>
+      <!--inicio do drawer-->
+      <aside id="drawer-links" class="drawer-links">
+        <a href="index.html" class="link-drawer">início</a>
+        <a href="sobre-a-autora.html" class="link-drawer">sobre a autora</a>
+        <a href="especialidades.html" class="link-drawer">especialidades</a>
+        <a href="dicas-nutricionais.html" class="link-drawer"
+          >dicas nutricionais</a
+        >
+        <a href="contato.html" class="link-drawer">contato</a>
+      </aside>
+
+      <!--fim do drawer-->
+      <!-- fim do menu -->
+      <!-- inicio do conteudo -->
+      <div id="contato-container">
+        <div class="ident-form-contato">
+          <div class="foto-form-contato">
+            <img src="imagens/foto-form-contato.jpeg" />
+          </div>
+          <div class="texto-form-contato">
+            <span>Nutricionista Claudia Santos Silva</span>
+          </div>
         </div>
-<!--inicio do drawer-->
-        <aside id="drawer-links" class="drawer-links">
-          <a href="index.html" class="link-drawer">início</a>
-          <a href="sobre-a-autora.html" class="link-drawer">sobre a autora</a>
-          <a href="especialidades.html" class="link-drawer">especialidades</a>
-          <a href="dicas-nutricionais.html" class="link-drawer">dicas nutricionais</a>
-          <a href="contato.html" class="link-drawer">contato</a>
-        </aside>
-  
-<!--fim do drawer-->   
-<!-- fim do menu -->
-<!-- inicio do conteudo -->
-<div id="contato-container">
-    <div class="ident-form-contato">
-        <div class="foto-form-contato"><img src="imagens/foto-form-contato.jpeg"></div>
-        <div class="texto-form-contato"><span>Nutricionista Claudia Santos Silva</span></div>
-    </div>
-    <form class="form-contato" method="post" action="https://getform.io/f/8e17d5c2-2a2c-476f-8a0a-ac10e049770b">
-        <h3 class="form-titulo">Entre em contato</h3> 
-    <div class="form-item-nome">
-    Digite seu nome:<input type="text" placeholder="Seu nome" id="form-nome" name="nome" class="form-campo-texto" required minlength="12" maxlength="22">
-    </div>
-    Qual o seu email?<input type="email" id="form-email" name="email" class="form-email" required>
-    <div class="form-item">
-    <textarea placeholder="Deixe a sua mensagem:" name="mensagem" class="form-campo-textarea" rows="6" minlength="16" maxlength="300" required></textarea>
-    </div>
-    <div class="form-item-enviar">
-    <input type="submit" value="Enviar" class="form-botao-enviar">
-    </div>  
-  </form>
-</div>
+        <form
+          class="form-contato"
+          method="post"
+          action="https://getform.io/f/8e17d5c2-2a2c-476f-8a0a-ac10e049770b"
+        >
+          <h3 class="form-titulo">Entre em contato</h3>
+          <div class="form-item-nome">
+            Digite seu nome:<input
+              type="text"
+              placeholder="Seu nome"
+              id="form-nome"
+              name="nome"
+              class="form-campo-texto"
+              required
+              minlength="12"
+              maxlength="22"
+            />
+          </div>
+          Qual o seu email?<input
+            type="email"
+            id="form-email"
+            name="email"
+            class="form-email"
+            required
+          />
+          <div class="form-item">
+            <textarea
+              placeholder="Deixe a sua mensagem:"
+              name="mensagem"
+              class="form-campo-textarea"
+              rows="6"
+              minlength="16"
+              maxlength="300"
+              required
+            ></textarea>
+          </div>
+          <div class="form-item-enviar">
+            <input type="submit" value="Enviar" class="form-botao-enviar" />
+          </div>
+        </form>
+      </div>
 
-<!-- fim do conteudo -->
-<!-- inicio do rodapé-->
-<div id="rodape">
-    <div class="links-rodape">
-    <div class="link-li-rodape">
-        <a href="https://www.linkedin.com/in/claudiassilva"><img src="imagens/simbolo-linkedin.jpg"></a>
+      <!-- fim do conteudo -->
+      <!-- inicio do rodapé-->
+      <div id="rodape">
+        <div class="links-rodape">
+          <div class="link-li-rodape">
+            <a href="https://www.linkedin.com/in/claudiassilva"
+              ><img src="imagens/simbolo-linkedin.jpg"
+            /></a>
+          </div>
+          <div class="link-inst-rodapé">
+            <a href="#"><img src="imagens/instagram-icone.webp" /></a>
+          </div>
+        </div>
+        <div class="texto-rodape">
+          <span
+            ><img src="imagens/copyright.png" />2023 | Todos os direitos
+            reservados | Nutr. Claudia Santos Silva</span
+          >
+        </div>
+      </div>
+      <!-- fim do rodape-->
     </div>
-    <div class="link-inst-rodapé">
-        <a href="#"><img src="imagens/instagram-icone.webp"></a>
-    </div>
-    </div>
-    <div class="texto-rodape">
-        <span><img src="imagens/copyright.png">2023 | Todos os direitos reservados | Nutr. Claudia Santos Silva</span>
-    </div>
-
-</div>
-<!-- fim do rodape-->
-</div>
-<script src="js/script.js"></script>
-<script src="js/drawer.js"></script>
-</body>
+    <script src="js/script.js"></script>
+    <script src="js/drawer.js"></script>
+  </body>
 </html>
