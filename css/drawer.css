@@ -27,16 +27,12 @@
   transition: left 1s;
   top: 240px;
   background-color: white;
-  /*box-shadow: -12px 10px 27px -10px rgba(0,0,0,0.5);*/
   padding: 10px 0 10px 10px;
 }
 
-.drawer-links > .link-drawer {
+.link-drawer {
   display: block;
   padding: 6px;
   border-bottom: solid 2px #808080;
-}
-
-.drawer-links > a {
   text-transform: uppercase;
 }

@@ -13,10 +13,10 @@
     <title>Blog Conhecendo as Ciências da Nutrição</title>
   </head>
   <body>
-    <div id="toda-a-pagina">
+    <div id="main" class="main">
       <!--início do topo-->
-      <div id="topo">
-        <div class="logo">
+      <div id="header" class="header">
+        <div class="logo-header">
           <img src="imagens/logo-nutricao-300x258.jpg" />
         </div>
         <div class="cabecalho">
@@ -33,26 +33,48 @@
       <!--fim do topo-->
       <!--inicio do menu-->
       <div id="menu-grande" class="menu-grande">
-        <a href="index.html">Início</a>
-        <a href="sobre-a-autora.html">Sobre a Autora</a>
-        <a href="especialidades.html">Especialidades</a>
-        <a href="dicas-nutricionais.html">Dicas Nutricionais</a>
-        <a href="contato.html">Contato</a>
+        <a class="menu-grande-link" href="index.html">Início</a>
+        <a class="menu-grande-link" href="sobre-a-autora.html"
+          >Sobre a Autora</a
+        >
+        <a class="menu-grande-link" href="especialidades.html"
+          >Especialidades</a
+        >
+        <a class="menu-grande-link" href="dicas-nutricionais.html"
+          >Dicas Nutricionais</a
+        >
+        <a class="menu-grande-link" href="contato.html">Contato</a>
       </div>
       <div id="menu-pequeno">
         <div class="menu-pequeno">
           <ul>
             <li><a href="#">MENU</a></li>
             <ul>
-              <li><a href="index.html">início</a></li>
+              <li class="menu-pequeno-item">
+                <a class="menu-pequeno-link" href="index.html">início</a>
+              </li>
               &nbsp
-              <li><a href="sobre-a-autora.html">sobre a autora</a></li>
+              <li class="menu-pequeno-item">
+                <a class="menu-pequeno-link" href="sobre-a-autora.html"
+                  >sobre a autora</a
+                >
+              </li>
               &nbsp
-              <li><a href="especialidades.html">especialidades</a></li>
+              <li class="menu-pequeno-item">
+                <a class="menu-pequeno-link" href="especialidades.html"
+                  >especialidades</a
+                >
+              </li>
               &nbsp
-              <li><a href="dicas-nutricionais.html">dicas nutricionais</a></li>
+              <li class="menu-pequeno-item">
+                <a class="menu-pequeno-link" href="dicas-nutricionais.html"
+                  >dicas nutricionais</a
+                >
+              </li>
               &nbsp
-              <li><a href="contato.html">contato</a></li>
+              <li class="menu-pequeno-item">
+                <a class="menu-pequeno-link" href="contato.html">contato</a>
+              </li>
               &nbsp
             </ul>
           </ul>
@@ -77,28 +99,32 @@
       <!--fim do drawer-->
       <!-- fim do menu -->
       <!-- inicio do conteudo -->
-      <div id="conteudo-autora">
+      <div id="conteudo-autora" class="conteudo-autora">
         <div class="foto"><img src="imagens/formacao1.jpg" /></div>
         <div class="conteudo-sobre-autora" id="conteudo-sobre-autora">
           <div class="titulo-sobre-autora" id="titulo-sobre-autora"></div>
           <div id="sobre-autora" class="formacao-autora">
-            <ol id="formacao">
-              <!--CRIAR CLASSE PARA ALTERAR COM TEXT DECORATION GRADUATION-->
-            </ol>
+            <ol id="formacao" class="formacao"></ol>
           </div>
         </div>
       </div>
       <!-- fim do conteudo -->
       <!-- inicio do rodapé-->
-      <div id="rodape">
+      <div id="rodape" class="rodape">
         <div class="links-rodape">
           <div class="link-li-rodape">
             <a href="https://www.linkedin.com/in/claudiassilva"
-              ><img src="imagens/simbolo-linkedin.jpg"
+              ><img
+                src="imagens/simbolo-linkedin.jpg"
+                class="imagem-linkedin-rodape"
             /></a>
           </div>
           <div class="link-inst-rodapé">
-            <a href="#"><img src="imagens/instagram-icone.webp" /></a>
+            <a href="#"
+              ><img
+                src="imagens/instagram-icone.webp"
+                class="imagem-insta-rodape"
+            /></a>
           </div>
         </div>
         <div class="texto-rodape">

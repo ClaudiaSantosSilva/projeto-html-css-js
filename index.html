@@ -12,10 +12,10 @@
     <title>Blog Conhecendo as Ciências da Nutrição</title>
   </head>
   <body>
-    <div id="toda-a-pagina">
+    <div id="main" class="main">
       <!--início do topo-->
-      <div id="topo">
-        <div class="logo">
+      <div id="header" class="header">
+        <div class="logo-header">
           <img src="imagens/logo-nutricao-300x258.jpg" />
         </div>
         <div class="cabecalho">
@@ -32,26 +32,26 @@
       <!--fim do topo-->
       <!--inicio do menu-->
       <div id="menu-grande" class="menu-grande">
-          <a href="index.html">Início</a>
-          <a href="sobre-a-autora.html">Sobre a Autora</a>
-          <a href="especialidades.html">Especialidades</a>
-          <a href="dicas-nutricionais.html">Dicas Nutricionais</a>
-          <a href="contato.html">Contato</a>
+          <a class="menu-grande-link" href="index.html">Início</a>
+          <a class="menu-grande-link" href="sobre-a-autora.html">Sobre a Autora</a>
+          <a class="menu-grande-link" href="especialidades.html">Especialidades</a>
+          <a class="menu-grande-link" href="dicas-nutricionais.html">Dicas Nutricionais</a>
+          <a class="menu-grande-link" href="contato.html">Contato</a>
         
       </div>
       <div id="menu-pequeno" class="menu-pequeno">
         <ul>
           <li><a href="#">menu</a></li>
           <ul>
-            <li><a href="index.html">início</a></li>
+            <li class="menu-pequeno-item"><a class="menu-pequeno-link" href="index.html">início</a></li>
             &nbsp
-            <li><a href="sobre-a-autora.html">sobre a autora</a></li>
+            <li class="menu-pequeno-item"><a class="menu-pequeno-link" href="sobre-a-autora.html">sobre a autora</a></li>
             &nbsp
-            <li><a href="especialidades.html">especialidades</a></li>
+            <li class="menu-pequeno-item"><a class="menu-pequeno-link" href="especialidades.html">especialidades</a></li>
             &nbsp
-            <li><a href="dicas-nutricionais.html">dicas nutricionais</a></li>
+            <li class="menu-pequeno-item"><a class="menu-pequeno-link" href="dicas-nutricionais.html">dicas nutricionais</a></li>
             &nbsp
-            <li><a href="contato.html">contato</a></li>
+            <li class="menu-pequeno-item"><a class="menu-pequeno-link" href="contato.html">contato</a></li>
             &nbsp
           </ul>
         </ul>
@@ -74,7 +74,7 @@
 
       <!--fim do menu-->
       <!--inicio do conteudo 1-->
-      <div id="conteudo-1">
+      <div id="conteudo-1" class="conteudo-1">
         <div class="video-conteudo-1">
           <iframe
             width="560"
@@ -103,7 +103,7 @@
       </div>
       <!--fim do conteudo 1-->
       <!--inicio do conteudo 2-->
-      <div id="conteudo-2">
+      <div id="conteudo-2" class="conteudo-2">
         <div class="titulo-conteudo-2">
           <h2>Temas atuais</h2>
         </div>
@@ -112,21 +112,18 @@
           <div class="tema-atual" id="tema-atual-1">
             <span  id="tema-atual-titulo-1" class="tema-atual-titulo-1">Remédios para emagrecer</span>
             <img src="imagens/medicamentos.jpg" />
-            <!--<a href="#">Ler o texto aqui</a> -->
             <span id="texto-tema-atual-1" class="texto-tema-atual-1">Os remédios para emagrecer, mesmo os considerados naturais, podem ter consequências graves à saúde</span>
           </div>
 
           <div class="tema-atual" id="tema-atual-2">
             <span id="tema-atual-titulo-2" class="tema-atual-titulo-2">Sarcopenia em idosos</span>
             <img src="imagens/casal-idosos.jpg" />
-            <!--<a href="#">Ler o texto aqui</a> -->        
             <span id="texto-tema-atual-2" class="texto-tema-atual-2">A perda de massa muscular em idosos é progressiva e silenciosa, podendo ter como consequências: redução da capacidade de engolir os alimentos, quedas, dentre outras.</span>
           </div>
 
           <div class="tema-atual" id="tema-atual-3">
             <span id="tema-atual-titulo-3" class="tema-atual-titulo-3">Alimentação e a prevenção de câncer</span>
             <img src="imagens/alimentos-saudaveis.jpg" />
-            <!-- <a href="#">Ler o texto aqui</a> -->
             <span id="texto-tema-atual-3" class="texto-tema-atual-3">O surgimento do câncer tem diferentes fatores desencadeantes, dentre eles a alimentação. Devemos consumir os alimentos frescos e os minimamente processados. Esquecer os congelados e ultraprocessados!</span>
           </div>
 
@@ -134,7 +131,7 @@
       </div>
       <!--fim do conteudo 2-->
       <!--inicio do formulário-->
-      <div id="formulario">
+      <div id="formulario-sugestao" class="formulario-sugestao">
         <form
         id="form-sugestao"
           class="form-enquete"
@@ -223,15 +220,15 @@
       </div>
       <!--fim do formulário-->
       <!--inicio rodapé-->
-      <div id="rodape">
+      <div id="rodape" class="rodape">
         <div class="links-rodape">
           <div class="link-li-rodape">
             <a href="https://www.linkedin.com/in/claudiassilva"
-              ><img src="imagens/simbolo-linkedin.jpg"
+              ><img src="imagens/simbolo-linkedin.jpg" class="imagem-linkedin-rodape"
             /></a>
           </div>
           <div class="link-inst-rodapé">
-            <a href="#"><img src="imagens/instagram-icone.webp" /></a>
+            <a href="#"><img src="imagens/instagram-icone.webp" class="imagem-insta-rodape"/></a>
           </div>
         </div>
         <div class="texto-rodape">

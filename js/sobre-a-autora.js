@@ -22,22 +22,3 @@ for (let index = 0; index < formacaoItens.length; index++) {
 }
 
 listaFormacao.innerHTML = formacao.join("");
-
-/*li:hover{
-    color: #111;
-    background: #39ff14;
-    box-shadow: 0 0 50px #39ff14;
-}*/
-
-//listaFormacao.classList.add("formacao");
-/*let listaFormacao=document.getElementsByClassName("formacao");
-listaFormacao.style.background= #39ff14;*/
-
-/*let itensFormacao=document.getElementsByClassName("item-formacao");
-
-[...itensFormacao].forEach((item)=>{
-   
-    item.style.color="red";
-
-
-})*/
